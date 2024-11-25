@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+</nav>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo"><span>ENG</span> Shereen</a>
+            <ul class="links">
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+
+            </ul>
+            <div class="social-links">
+                <a href="https://www.facebook.com/sherry.elassale?mibextid=ZbWKwL"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/shereen-mohamed-bb33a71b2"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/shereenMrashad"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+            <i id="btnnMenu" class="fa-solid fa-bars"></i>
+
+    </header>
+    <div class="hero-sec">
+        <div class="container">
+            <div class="div-text">
+                <h1> Sereen M Rashad</h1>
+                <span> Front-End Developer 💻</span>
+                <p> Welcome to my corner of the digital world! I’m a front-end developer who thrives on bringing
+                    imaginative designs to life. With a keen eye for aesthetics and a passion for user experience, I
+                    specialize in crafting dynamic, responsive websites that not only look great but also provide
+                    seamless interactions</p>
+                <a href="#Projects" class="btn">My Works </a>
+            </div>
+
+        </div>
+    </div>
+    <section class="cards" id="Services">
+        <h2 class="title"> Services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <div class="info">
+                    <h3>Website Implementation</h3>
+                    <p>Turning UI/UX designs into responsive websites using HTML, CSS, and JavaScript</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="info">
+                    <h3>Interactive Features</h3>
+                    <p>Developing dynamic content and interactivity using JavaScript and React</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-gauge-high"></i>
+                </div>
+                <div class="info">
+                    <h3>Performance and Maintenance</h3>
+                    <p>Optimizing speed, accessibility, and ensuring browser compatibility</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="projects" id="Projects">
+        <h2 class="title"> Projects</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./image/project.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">
+                        "HomeHaven" is a responsive e-commerce website with a modern design, featuring product filtering
+                        and
+                        dynamic content for an enhanced user experience across all devices.
+                    </p>
+                    <strong class="project-title">
+                        <span>HomeHaven</span>
+                        <a href="https://furniture-store-shereenmrashad-shereenmrashads-projects.vercel.app/"
+                            class="more-details">More Details</a>
+                    </strong>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="cards contact" id="Contact">
+        <h2 class="title"> Let's work together </h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>phone</h3>
+                    <p>+201220299768</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>shereenelasaal20@gmail.com </p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p class="footer-title">Copyrights @ <span>Shereen Mohamed Rashad</span></p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/sherry.elassale?mibextid=ZbWKwL"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/shereen-mohamed-bb33a71b2"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/shereenMrashad"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+
+        </footer>
+
+
+    </section>
+    <script>
+        let btnnMenu = document.getElementById("btnnMenu");
+        let NavLink = document.querySelector(".links");
+        btnnMenu.onclick = function () {
+            btnnMenu.classList.toggle("fa-times")
+            NavLink.classList.toggle("active")
+        }
+    </script>
+</body>
+
+</html>
